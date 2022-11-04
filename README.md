@@ -1,1 +1,0 @@
-# frutfoo.github.io

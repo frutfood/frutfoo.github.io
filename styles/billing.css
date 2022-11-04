@@ -1,0 +1,32 @@
+/* Billing Section Styling */
+.billing {
+    width: 100%;
+    height: 35px;
+    background: #9CAFBFE6;
+    color: #3D302A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.billing-content {
+    width: 90%;
+    margin: auto;
+    display: table;
+    text-align: right;
+    padding-top: 5px;
+}
+.text{
+    clear: left;
+    vertical-align: middle;
+    line-height:25px;
+    padding-right: 10px;
+}
+span.material-symbols-outlined
+{
+    color: #3D302A;
+    display:inline-block;
+    vertical-align:top;
+    padding-right: 10px;
+    font-size: 25px;
+}

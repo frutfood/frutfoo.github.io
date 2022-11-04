@@ -1,0 +1,32 @@
+/* Video section Styling */
+.video {
+    padding: 75px 0;
+    width: 90%;
+    margin: 0 5%;
+}
+.video .subtitle {
+    width: 250px;
+    margin: 25px auto;
+    border-bottom: 2px solid #3D302A;
+    padding-bottom: 2px;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #3D302A;
+    margin-bottom: 30px;
+}
+.video-content video {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (min-width: 1024px) {
+    .video .subtitle {
+        width: 320px;
+    }
+    .video-content video {
+        width: 70%;
+    }
+}

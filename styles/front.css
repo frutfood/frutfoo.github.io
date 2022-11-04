@@ -1,0 +1,37 @@
+/* Home section Styling */
+.home {
+    background-image: url(../resources/images/palta.jpg);
+    background-color: #595050;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    z-index: 50;
+}
+.home-content {
+    font-family: 'Prata', serif;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    color: black;
+    background-color: #EDEDEDBF;
+}
+.home-content .text-area {
+    font-size: 50px;
+    text-align: center;
+}
+@media (min-width: 1024px) {
+    .home-content {
+        width: 100%;
+        margin: 0 0;
+    }
+    .home-content div {
+        font-size: 50px;
+    }
+    .home-content .text-area {
+        margin: 25px;
+    }
+}

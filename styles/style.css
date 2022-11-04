@@ -1,0 +1,51 @@
+@import url(header.css);
+@import url(front.css);
+@import url(billing.css);
+@import url(product.css);
+@import url(social.css);
+@import url(b2b.css);
+@import url(video.css);
+@import url(news.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #EDEDED;
+}
+/* Whatsapp bubble Styling */
+.bubble {
+    display: table;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #55CC6D;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px !important;
+    z-index: 200;
+    right: 5%;
+    bottom: 5%;
+    transition: all 0.5s;
+}
+.bubble img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 10px 9px 7px 11px;
+}
+.bubble:hover {
+    background-color: #26A540;
+    transform: scale(1.1);
+}
+@media (min-width: 1024px) {
+    .bubble img {
+        right: 10%;
+        bottom: 10%;
+    }
+}

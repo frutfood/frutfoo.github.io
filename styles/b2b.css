@@ -1,0 +1,71 @@
+/* B2B section Styling */
+.b2b {
+    padding: 75px 0;
+    width: 90%;
+    margin: 0 5%;
+}
+.b2b .subtitle {
+    width: 300px;
+    margin: 25px auto;
+    border-bottom: 2px solid #3D302A;
+    padding-bottom: 2px;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #3D302A;
+    margin-bottom: 30px;
+}
+.b2b-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.b2b-content div {
+    margin: 20px;
+}
+.b2b-content .b2b-images {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+.b2b-content .b2b-images img {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.b2b-content .txt .text1 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #AB7456;
+    margin-bottom: 25px;
+}
+.b2b-content .text2 {
+    font-size: 18px;
+    text-align: justify;
+}
+@media (min-width: 1024px) {
+    .b2b {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .b2b-content .txt {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+        align-content: flex-end;
+    }
+    .b2b-content .b2b-images {
+        grid-template-columns: 200px 200px;
+        gap: 30px;
+        margin-top: 0px;
+    }
+    .b2b-content .b2b-images img {
+        width: 200px;
+        height: 400px;
+    }
+}
